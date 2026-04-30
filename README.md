@@ -239,7 +239,7 @@ To suppress jitter, incoming X, Y, Z, θ, and φ values are filtered using EWMA 
 
 ### Rate Limiting
 
-A potentiometer on pin A8 of the Mega sets the maximum step size per control loop for each joint (1–20°), acting as a hardware speed limit to prevent violent motion.
+The servos have a maximum step size per control loop for each joint (1–20°), acting as a hardware speed limit to prevent violent motion.
 
 ### Design Assumptions
 
